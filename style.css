@@ -563,3 +563,176 @@
     color: #facc15;
     font-weight: 700;
 }
+
+
+/* Responsive Design */
+
+/* For devices with a max width of 1200px (laptops) */
+@media (max-width: 1200px) {
+    .container nav .logo {
+        margin-left: 10%;
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    main .content h1 {
+        font-size: 36px;
+    }
+
+    main .content h3 {
+        font-size: 16px;
+    }
+
+    section.about .content p {
+        font-size: 14px;
+    }
+
+    .services .cards .card p {
+        font-size: 14px;
+    }
+
+    .projects .cards .card p {
+        font-size: 14px;
+    }
+}
+
+/* For tablets (max width of 768px) */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .container nav .logo {
+        margin-left: 5%;
+        font-size: 22px;
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main .image {
+        margin: 20px auto;
+    }
+
+    main .content h1 {
+        font-size: 30px;
+    }
+
+    main .content h3 {
+        font-size: 14px;
+    }
+
+    .services .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects .cards .card {
+        margin: 10px 0;
+    }
+
+    .about .content, .about .img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .img img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+/* For mobile phones (max width of 480px) */
+@media (max-width: 480px) {
+    .container nav .logo {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    main .content h1 {
+        font-size: 24px;
+    }
+
+    main .image img {
+        display: none;
+    }
+
+    main .content h3 {
+        font-size: 12px;
+    }
+
+    main ul {
+        flex-direction: column;
+    }
+
+    main ul li {
+        margin: 5px 0;
+    }
+
+    section.about .content p {
+        font-size: 12px;
+    }
+
+    .services .cards .card h3 {
+        font-size: 16px;
+    }
+
+    .services .cards .card p {
+        font-size: 12px;
+    }
+
+    .projects .cards .card p {
+        font-size: 12px;
+    }
+
+    .rain-form input, .rain-form textarea {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .contact-details .desc {
+        font-size: 12px;
+    }
+
+    .contact-details .contact h5 {
+        font-size: 14px;
+    }
+}
+
+/* Adjustments for very small devices (max width of 320px) */
+@media (max-width: 320px) {
+    main .content h1 {
+        font-size: 20px;
+    }
+
+    main .content h3 {
+        font-size: 10px;
+    }
+
+    .projects .cards .card p {
+        font-size: 10px;
+    }
+
+    .rain-form input, .rain-form textarea {
+        font-size: 10px;
+    }
+
+    .contact-details .desc {
+        font-size: 10px;
+    }
+
+    .contact-details .contact h5 {
+        font-size: 12px;
+    }
+}
